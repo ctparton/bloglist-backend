@@ -1,0 +1,33 @@
+{
+  "name": "bloglist-backend",
+  "version": "1.0.0",
+  "description": "A backend for the bloglist applicaton fso part4 onwards",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctparton/bloglist-backend.git"
+  },
+  "author": "Callum Parton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctparton/bloglist-backend/issues"
+  },
+  "homepage": "https://github.com/ctparton/bloglist-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26"
+  },
+  "devDependencies": {
+    "jest": "^26.2.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
